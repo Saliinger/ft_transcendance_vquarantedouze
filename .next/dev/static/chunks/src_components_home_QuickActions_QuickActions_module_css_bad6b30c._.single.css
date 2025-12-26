@@ -1,0 +1,53 @@
+/* [project]/src/components/home/QuickActions/QuickActions.module.css [app-client] (css) */
+.QuickActions-module__F6919q__quickActions {
+  background-color: #21201d;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 10px;
+  padding: 24px;
+  display: flex;
+}
+
+.QuickActions-module__F6919q__quickActions h2 {
+  color: #fff;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.QuickActions-module__F6919q__actionsGrid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  display: grid;
+}
+
+.QuickActions-module__F6919q__actionCard {
+  background-color: #262522;
+  border-radius: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 24px;
+  text-decoration: none;
+  transition: all .2s;
+  display: flex;
+}
+
+.QuickActions-module__F6919q__actionCard:hover {
+  background-color: #2a2926;
+  transform: translateY(-2px);
+}
+
+.QuickActions-module__F6919q__actionCard svg {
+  color: #739552;
+  width: 32px;
+  height: 32px;
+}
+
+.QuickActions-module__F6919q__actionCard span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=src_components_home_QuickActions_QuickActions_module_css_bad6b30c._.single.css.map*/

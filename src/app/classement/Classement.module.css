@@ -1,0 +1,29 @@
+.wrapper {
+    width: 100%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    gap: 10px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.leftColumn {
+    min-width: 0;
+}
+
+.rightColumn {
+    min-width: 0;
+}
+
+@media (max-width: 1024px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .rightColumn {
+        order: -1;
+    }
+}

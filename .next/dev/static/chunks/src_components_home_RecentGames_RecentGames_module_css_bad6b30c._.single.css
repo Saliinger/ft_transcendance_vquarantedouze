@@ -1,0 +1,123 @@
+/* [project]/src/components/home/RecentGames/RecentGames.module.css [app-client] (css) */
+.RecentGames-module__eh05LW__recentGames {
+  background-color: #21201d;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 10px;
+  padding: 24px;
+  display: flex;
+}
+
+.RecentGames-module__eh05LW__header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.RecentGames-module__eh05LW__header h2 {
+  color: #fff;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.RecentGames-module__eh05LW__viewAll {
+  color: #739552;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity .2s;
+}
+
+.RecentGames-module__eh05LW__viewAll:hover {
+  opacity: .8;
+}
+
+.RecentGames-module__eh05LW__gamesList {
+  flex-direction: column;
+  gap: 10px;
+  display: flex;
+}
+
+.RecentGames-module__eh05LW__gameItem {
+  background-color: #262522;
+  border-radius: 12px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  transition: background-color .2s;
+  display: flex;
+}
+
+.RecentGames-module__eh05LW__gameItem:hover {
+  background-color: #2a2926;
+}
+
+.RecentGames-module__eh05LW__gameInfo {
+  flex-direction: column;
+  gap: 10px;
+  display: flex;
+}
+
+.RecentGames-module__eh05LW__opponent {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.RecentGames-module__eh05LW__opponentAvatar {
+  color: #fff;
+  background-color: #739552;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+}
+
+.RecentGames-module__eh05LW__opponentName {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.RecentGames-module__eh05LW__gameDetails {
+  gap: 10px;
+  font-size: 12px;
+  display: flex;
+}
+
+.RecentGames-module__eh05LW__moves {
+  color: #90908e;
+}
+
+.RecentGames-module__eh05LW__date {
+  color: #5a5a58;
+}
+
+.RecentGames-module__eh05LW__result {
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.RecentGames-module__eh05LW__result.RecentGames-module__eh05LW__win {
+  color: #739552;
+  background-color: #73955233;
+}
+
+.RecentGames-module__eh05LW__result.RecentGames-module__eh05LW__loss {
+  color: #ef4444;
+  background-color: #ef444433;
+}
+
+.RecentGames-module__eh05LW__result.RecentGames-module__eh05LW__draw {
+  color: #90908e;
+  background-color: #90908e33;
+}
+
+/*# sourceMappingURL=src_components_home_RecentGames_RecentGames_module_css_bad6b30c._.single.css.map*/

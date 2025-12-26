@@ -1,2 +1,1141 @@
-[00:00:00.707] Server  LOG      ✓ Ready in 536ms
-[00:00:06.577] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:00.498] Server  LOG      ✓ Ready in 347ms
+[00:00:57.208] Browser ERROR   ./src/app/game/page.tsx:5:48
+Parsing ecmascript source code failed
+  3 | export default function Game()
+  4 | {
+> 5 |     return (<div className={styles.test}>Game</>);
+    |                                                ^
+  6 | }
+
+Expression expected
+[00:00:58.875] Server  LOG      ✓ Compiled in 21ms
+[00:01:08.772] Server  LOG      ✓ Compiled in 4ms
+[00:01:29.188] Server  LOG      ✓ Compiled in 3ms
+[00:01:36.840] Server  LOG      ✓ Compiled in 4ms
+[00:02:10.954] Server  LOG      ✓ Compiled in 1ms
+[00:02:23.910] Server  LOG      ✓ Compiled in 3ms
+[00:02:37.750] Server  LOG      ✓ Compiled in 7ms
+[00:02:40.505] Server  LOG      ✓ Compiled in 4ms
+[00:03:00.786] Server  LOG      ✓ Compiled in 3ms
+[00:03:03.560] Server  LOG      ✓ Compiled in 4ms
+[00:04:35.557] Server  LOG      ✓ Compiled in 5ms
+[00:04:49.519] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:52.988] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:53.100] Browser WARN    Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:05:21.175] Server  LOG      ✓ Compiled in 2ms
+[00:07:04.023] Browser LOG     Logout
+[00:07:47.183] Server  LOG      ✓ Compiled in 11ms
+[00:07:58.688] Server  LOG      ✓ Compiled in 3ms
+[00:08:30.983] Server  LOG      ✓ Compiled in 115ms
+[00:08:31.207] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:08:32.544] Server  ERROR   An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+[00:08:32.726] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:08:34.889] Server  ERROR   An empty string ("") was passed to the src attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to src instead of an empty string.
+[00:08:34.969] Browser ERROR   An empty string ("") was passed to the %s attribute. This may cause the browser to download the whole page again over the network. To fix this, either do not render the element at all or pass null to %s instead of an empty string. src src
+[00:08:43.528] Server  LOG      ✓ Compiled in 68ms
+[00:08:56.030] Server  LOG      ✓ Compiled in 3ms
+[00:08:58.903] Server  LOG      ✓ Compiled in 3ms
+[00:09:02.707] Server  LOG      ✓ Compiled in 3ms
+[00:09:06.954] Server  LOG      ✓ Compiled in 3ms
+[00:09:09.558] Server  LOG      ✓ Compiled in 2ms
+[00:09:14.207] Server  LOG      ✓ Compiled in 4ms
+[00:09:25.322] Server  LOG      ✓ Compiled in 3ms
+[00:09:31.907] Server  LOG      ✓ Compiled in 3ms
+[00:24:04.241] Server  LOG      ✓ Compiled in 3ms
+[00:24:20.319] Server  LOG      ✓ Compiled in 6ms
+[00:25:15.725] Server  LOG      ✓ Compiled in 3ms
+[00:25:21.962] Server  LOG      ✓ Compiled in 3ms
+[00:25:33.465] Server  LOG      ✓ Compiled in 2ms
+[00:25:37.972] Server  LOG      ✓ Compiled in 4ms
+[00:27:49.607] Server  LOG      ✓ Compiled in 6ms
+[00:28:35.002] Server  LOG      ✓ Compiled in 4ms
+[00:29:11.715] Server  LOG      ✓ Compiled in 3ms
+[00:29:22.059] Server  LOG      ✓ Compiled in 4ms
+[00:35:15.066] Server  LOG      ✓ Compiled in 5ms
+[00:35:21.806] Server  LOG      ✓ Compiled in 4ms
+[00:35:26.747] Server  LOG      ✓ Compiled in 5ms
+[00:35:35.536] Server  LOG      ✓ Compiled in 3ms
+[00:35:45.265] Server  LOG      ✓ Compiled in 3ms
+[00:36:07.710] Server  LOG      ✓ Compiled in 4ms
+[00:36:15.427] Server  LOG      ✓ Compiled in 4ms
+[00:36:25.513] Server  LOG      ✓ Compiled in 3ms
+[00:36:30.274] Server  LOG      ✓ Compiled in 3ms
+[00:36:40.859] Server  LOG      ✓ Compiled in 4ms
+[00:36:57.612] Server  LOG      ✓ Compiled in 4ms
+[00:37:08.301] Server  LOG      ✓ Compiled in 4ms
+[00:37:13.663] Server  LOG      ✓ Compiled in 4ms
+[00:37:19.061] Server  LOG      ✓ Compiled in 3ms
+[00:37:22.950] Server  LOG      ✓ Compiled in 4ms
+[00:37:27.601] Server  LOG      ✓ Compiled in 3ms
+[00:37:35.226] Server  LOG      ✓ Compiled in 3ms
+[00:37:42.029] Server  LOG      ✓ Compiled in 5ms
+[00:37:47.461] Server  LOG      ✓ Compiled in 3ms
+[00:37:50.277] Server  LOG      ✓ Compiled in 3ms
+[00:37:56.982] Server  LOG      ✓ Compiled in 5ms
+[00:38:12.601] Server  LOG      ✓ Compiled in 3ms
+[00:39:06.994] Server  LOG      ✓ Compiled in 3ms
+[00:39:10.989] Server  LOG      ✓ Compiled in 3ms
+[00:39:21.108] Server  LOG      ✓ Compiled in 3ms
+[00:39:57.550] Server  LOG      ✓ Compiled in 6ms
+[00:41:52.531] Server  LOG      ✓ Compiled in 13ms
+[00:59:43.691] Server  LOG      ✓ Compiled in 5ms
+[01:00:21.067] Server  LOG      ✓ Compiled in 3ms
+[01:00:58.017] Server  LOG      ✓ Compiled in 3ms
+[01:00:58.218] Server  LOG      ✓ Compiled in 127ms
+[01:01:52.460] Server  LOG      ✓ Compiled in 5ms
+[01:03:31.424] Server  LOG      ✓ Compiled in 7ms
+[01:04:26.719] Server  LOG      ✓ Compiled in 104ms
+[01:04:45.782] Server  LOG      ✓ Compiled in 85ms
+[01:05:03.522] Server  LOG      ✓ Compiled in 98ms
+[01:07:45.512] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Game`.
+[01:07:46.377] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:07:46.380] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:07:46.384] Server  LOG      ✓ Compiled in 1ms
+[01:09:34.632] Server  LOG      ✓ Compiled in 23ms
+[01:10:06.264] Server  LOG      ✓ Compiled in 90ms
+[01:10:12.262] Server  LOG      ✓ Compiled in 6ms
+[01:13:03.929] Server  LOG      ✓ Compiled in 6ms
+[01:13:11.566] Server  LOG      ✓ Compiled in 3ms
+[01:15:09.402] Server  LOG      ✓ Compiled in 5ms
+[01:15:47.096] Server  LOG      ✓ Compiled in 5ms
+[01:16:07.801] Server  LOG      ✓ Compiled in 5ms
+[01:16:11.431] Server  LOG      ✓ Compiled in 3ms
+[01:16:32.818] Server  LOG      ✓ Compiled in 3ms
+[01:16:38.273] Server  LOG      ✓ Compiled in 4ms
+[01:16:41.250] Server  LOG      ✓ Compiled in 3ms
+[01:16:49.758] Server  LOG      ✓ Compiled in 3ms
+[01:17:12.142] Server  LOG      ✓ Compiled in 5ms
+[01:17:25.104] Server  LOG      ✓ Compiled in 4ms
+[01:17:43.632] Server  LOG      ✓ Compiled in 3ms
+[01:17:53.074] Server  LOG      ✓ Compiled in 7ms
+[01:18:25.817] Server  LOG      ✓ Compiled in 5ms
+[01:19:01.180] Server  LOG      ✓ Compiled in 5ms
+[01:19:10.262] Server  LOG      ✓ Compiled in 4ms
+[01:19:31.322] Server  LOG      ✓ Compiled in 3ms
+[01:19:48.551] Server  LOG      ✓ Compiled in 5ms
+[01:20:06.645] Server  LOG      ✓ Compiled in 4ms
+[01:20:35.755] Server  LOG      ✓ Compiled in 5ms
+[01:21:25.174] Server  LOG      ✓ Compiled in 80ms
+[01:21:35.411] Server  LOG      ✓ Compiled in 6ms
+[01:22:35.617] Server  LOG      ✓ Compiled in 4ms
+[01:22:35.706] Server  LOG      ✓ Compiled in 2ms
+[01:22:35.748] Server  LOG      ✓ Compiled in 2ms
+[01:22:35.785] Server  LOG      ✓ Compiled in 3ms
+[01:23:44.228] Server  LOG      ✓ Compiled in 6ms
+[01:23:58.409] Server  LOG      ✓ Compiled in 4ms
+[01:24:34.458] Server  LOG      ✓ Compiled in 5ms
+[01:24:41.856] Server  LOG      ✓ Compiled in 3ms
+[01:28:19.184] Server  LOG      ✓ Compiled in 12ms
+[01:29:23.622] Server  LOG      ✓ Compiled in 6ms
+[01:29:30.942] Server  LOG      ✓ Compiled in 7ms
+[01:29:43.757] Server  LOG      ✓ Compiled in 6ms
+[01:29:52.130] Server  LOG      ✓ Compiled in 6ms
+[01:30:06.417] Server  LOG      ✓ Compiled in 5ms
+[01:30:12.913] Server  LOG      ✓ Compiled in 5ms
+[01:30:20.579] Server  LOG      ✓ Compiled in 13ms
+[01:30:29.881] Server  LOG      ✓ Compiled in 6ms
+[01:30:46.182] Server  LOG      ✓ Compiled in 5ms
+[01:30:54.395] Server  LOG      ✓ Compiled in 6ms
+[01:32:57.416] Server  LOG      ✓ Compiled in 12ms
+[01:33:22.793] Server  LOG      ✓ Compiled in 6ms
+[01:34:23.601] Server  LOG      ✓ Compiled in 6ms
+[01:34:29.680] Server  LOG      ✓ Compiled in 4ms
+[01:34:41.567] Server  LOG      ✓ Compiled in 5ms
+[01:35:14.521] Server  LOG      ✓ Compiled in 5ms
+[01:35:22.378] Server  LOG      ✓ Compiled in 5ms
+[01:35:24.760] Server  LOG      ✓ Compiled in 5ms
+[01:35:36.037] Server  LOG      ✓ Compiled in 6ms
+[01:36:31.602] Server  LOG      ✓ Compiled in 38ms
+[01:36:31.654] Server  LOG      ✓ Compiled in 0ms
+[01:37:48.898] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Game`.
+[01:37:49.322] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[01:37:49.326] Server  LOG      ✓ Compiled in 40ms
+[01:37:49.328] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:37:49.328] Browser ERROR   unhandledRejection: undefined
+[01:37:49.331] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:37:49.613] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `PlayersInfo`.
+[01:37:49.663] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[01:37:49.668] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/src_53058d4c._.css
+[01:38:30.396] Server  LOG      ✓ Compiled in 5ms
+[01:38:58.516] Server  LOG      ✓ Compiled in 4ms
+[01:39:03.519] Server  LOG      ✓ Compiled in 4ms
+[01:41:11.573] Server  LOG      ✓ Compiled in 1ms
+[01:43:46.093] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Classement`.
+[01:43:46.754] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[01:43:46.759] Server  LOG      ✓ Compiled in 20ms
+[01:43:46.922] Server  LOG      ✓ Compiled in 2ms
+[01:43:47.002] Server  LOG      ✓ Compiled in 26ms
+[01:43:47.050] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Classement`.
+[01:44:21.472] Server  LOG      ✓ Compiled in 3ms
+[01:46:24.269] Server  LOG      ✓ Compiled in 7ms
+[01:46:24.369] Server  LOG      ✓ Compiled in 4ms
+[01:46:24.430] Server  LOG      ✓ Compiled in 2ms
+[01:46:54.307] Server  LOG      ✓ Compiled in 6ms
+[01:47:59.044] Server  LOG      ✓ Compiled in 4ms
+[01:53:58.337] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve './globals.css'
+  3 | import Navbar from "@/components/layout/Navbar/Navbar";
+  4 | import Topbar from "@/components/layout/Topbar/Topbar";
+> 5 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "@/styles/global.css";
+  7 |
+  8 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:58.338] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve './globals.css'
+  3 | import Navbar from "@/components/layout/Navbar/Navbar";
+  4 | import Topbar from "@/components/layout/Topbar/Topbar";
+> 5 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "@/styles/global.css";
+  7 |
+  8 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:58.338] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve './globals.css'
+  3 | import Navbar from "@/components/layout/Navbar/Navbar";
+  4 | import Topbar from "@/components/layout/Topbar/Topbar";
+> 5 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "@/styles/global.css";
+  7 |
+  8 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:58.338] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve './globals.css'
+  3 | import Navbar from "@/components/layout/Navbar/Navbar";
+  4 | import Topbar from "@/components/layout/Topbar/Topbar";
+> 5 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "@/styles/global.css";
+  7 |
+  8 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:58.400] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve './globals.css'
+  3 | import Navbar from "@/components/layout/Navbar/Navbar";
+  4 | import Topbar from "@/components/layout/Topbar/Topbar";
+> 5 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "@/styles/global.css";
+  7 |
+  8 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:58.400] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve './globals.css'
+  3 | import Navbar from "@/components/layout/Navbar/Navbar";
+  4 | import Topbar from "@/components/layout/Topbar/Topbar";
+> 5 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "@/styles/global.css";
+  7 |
+  8 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:58.401] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve './globals.css'
+  3 | import Navbar from "@/components/layout/Navbar/Navbar";
+  4 | import Topbar from "@/components/layout/Topbar/Topbar";
+> 5 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "@/styles/global.css";
+  7 |
+  8 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:58.401] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve './globals.css'
+  3 | import Navbar from "@/components/layout/Navbar/Navbar";
+  4 | import Topbar from "@/components/layout/Topbar/Topbar";
+> 5 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "@/styles/global.css";
+  7 |
+  8 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:58.401] Server  ERROR    ⨯ ./src/app/layout.tsx:5:1
+Module not found: Can't resolve './globals.css'
+  3 | import Navbar from "@/components/layout/Navbar/Navbar";
+  4 | import Topbar from "@/components/layout/Topbar/Topbar";
+> 5 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "@/styles/global.css";
+  7 |
+  8 | const geistSans = Geist({
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:53:58.431] Server  LOG      ✓ Compiled in 116ms
+[01:53:58.684] Browser ERROR   ./src/app/layout.tsx:5:1
+Module not found: Can't resolve './globals.css'
+  3 | import Navbar from "@/components/layout/Navbar/Navbar";
+  4 | import Topbar from "@/components/layout/Topbar/Topbar";
+> 5 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "@/styles/global.css";
+  7 |
+  8 | const geistSans = Geist({
+
+https://nextjs.org/docs/messages/module-not-found
+[01:54:11.432] Browser ERROR   ./src/app/layout.tsx:5:1
+Module not found: Can't resolve './globals.css'
+  3 | import Navbar from "@/components/layout/Navbar/Navbar";
+  4 | import Topbar from "@/components/layout/Topbar/Topbar";
+> 5 | import "./globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+  6 | import "@/styles/global.css";
+  7 |
+  8 | const geistSans = Geist({
+
+https://nextjs.org/docs/messages/module-not-found
+[01:54:11.811] Server  ERROR    ⨯ ./src/app/page.tsx:1:1
+Module not found: Can't resolve './Home.module.css'
+> 1 | import styles from './Home.module.css'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import StatsCard from '@/components/home/StatsCard/StatsCard'
+  3 | import RecentGames from '@/components/home/RecentGames/RecentGames'
+  4 | import QuickActions from '@/components/home/QuickActions/QuickActions'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:54:11.812] Server  ERROR    ⨯ ./src/app/page.tsx:1:1
+Module not found: Can't resolve './Home.module.css'
+> 1 | import styles from './Home.module.css'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import StatsCard from '@/components/home/StatsCard/StatsCard'
+  3 | import RecentGames from '@/components/home/RecentGames/RecentGames'
+  4 | import QuickActions from '@/components/home/QuickActions/QuickActions'
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:54:11.988] Server  LOG      ✓ Compiled in 28ms
+[01:54:12.059] Browser ERROR   ./src/app/page.tsx:1:1
+Module not found: Can't resolve './Home.module.css'
+> 1 | import styles from './Home.module.css'
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import StatsCard from '@/components/home/StatsCard/StatsCard'
+  3 | import RecentGames from '@/components/home/RecentGames/RecentGames'
+  4 | import QuickActions from '@/components/home/QuickActions/QuickActions'
+
+https://nextjs.org/docs/messages/module-not-found
+[01:54:12.134] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[01:54:12.347] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[01:54:12.514] Server  LOG      ✓ Compiled in 34ms
+[01:54:12.685] Server  ERROR    ⨯ Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+[01:54:12.693] Browser ERROR   uncaughtError: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: object. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `Home`.
+[01:54:12.887] Server  LOG      ✓ Compiled in 3ms
+[01:54:13.002] Server  LOG      ✓ Compiled in 1ms
+[01:55:04.502] Server  LOG      ✓ Compiled in 10ms
+[01:56:18.617] Server  LOG      ✓ Compiled in 4ms
+[01:56:20.517] Server  LOG      ✓ Compiled in 21ms
+[01:57:43.081] Server  LOG      ✓ Compiled in 4ms
+[01:57:43.132] Server  LOG      ✓ Compiled in 5ms
+[01:58:07.018] Server  LOG      ✓ Compiled in 4ms
+[01:59:13.638] Server  LOG      ✓ Compiled in 18ms
+[01:59:13.740] Browser ERROR   ./src/app/profil/page.tsx:60:35
+Parsing ecmascript source code failed
+  58 |   )
+  59 | }
+> 60 |     { username: 'emma_pro', avatar: 'E' },
+     |                                   ^
+  61 |   ],
+  62 | };
+  63 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+[01:59:25.661] Server  LOG      ✓ Compiled in 4ms
+[01:59:25.763] Browser ERROR   ./src/app/profil/Profil.module.css:29:20
+Parsing CSS source code failed
+  27 |     }
+  28 | }
+> 29 |   justify-content: center;
+     |                    ^
+  30 |   font-size: 3rem;
+  31 |   color: white;
+  32 |   font-weight: bold;
+
+Invalid token in pseudo element: WhiteSpace(" ")
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/Profil.module.css [Client Component Browser]
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/Profil.module.css [Client Component SSR]
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+[01:59:25.764] Browser ERROR   ./src/app/profil/page.tsx:60:35
+Parsing ecmascript source code failed
+  58 |   )
+  59 | }
+> 60 |     { username: 'emma_pro', avatar: 'E' },
+     |                                   ^
+  61 |   ],
+  62 | };
+  63 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+[02:01:07.306] Server  LOG      ✓ Compiled in 5ms
+[02:01:07.496] Browser ERROR   ./src/app/profil/page.tsx:60:35
+Parsing ecmascript source code failed
+  58 |   )
+  59 | }
+> 60 |     { username: 'emma_pro', avatar: 'E' },
+     |                                   ^
+  61 |   ],
+  62 | };
+  63 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+[02:01:17.786] Server  LOG      ✓ Compiled in 5ms
+[02:01:17.922] Browser ERROR   ./src/app/profil/Profil.module.css:30:1
+Parsing CSS source code failed
+  28 | }
+  29 |
+> 30 | }
+     | ^
+  31 |
+  32 | .statLabel {
+  33 |   font-size: 0.875rem;
+
+Invalid empty selector
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/Profil.module.css [Client Component Browser]
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/Profil.module.css [Client Component SSR]
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+[02:01:17.922] Browser ERROR   ./src/app/profil/page.tsx:60:35
+Parsing ecmascript source code failed
+  58 |   )
+  59 | }
+> 60 |     { username: 'emma_pro', avatar: 'E' },
+     |                                   ^
+  61 |   ],
+  62 | };
+  63 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+[02:01:27.811] Server  ERROR    ⨯ ./src/app/profil/Profil.module.css:30:1
+Parsing CSS source code failed
+  28 | }
+  29 |
+> 30 | }
+     | ^
+  31 |
+  32 | .statLabel {
+  33 |   font-size: 0.875rem;
+
+Invalid empty selector
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/Profil.module.css [Client Component Browser]
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/Profil.module.css [Client Component SSR]
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+
+
+
+./src/app/profil/page.tsx:60:35
+Parsing ecmascript source code failed
+  58 |   )
+  59 | }
+> 60 |     { username: 'emma_pro', avatar: 'E' },
+     |                                   ^
+  61 |   ],
+  62 | };
+  63 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+
+
+[02:01:27.928] Browser ERROR   ./src/app/profil/Profil.module.css:30:1
+Parsing CSS source code failed
+  28 | }
+  29 |
+> 30 | }
+     | ^
+  31 |
+  32 | .statLabel {
+  33 |   font-size: 0.875rem;
+
+Invalid empty selector
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/Profil.module.css [Client Component Browser]
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/Profil.module.css [Client Component SSR]
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+[02:01:27.928] Browser ERROR   ./src/app/profil/page.tsx:60:35
+Parsing ecmascript source code failed
+  58 |   )
+  59 | }
+> 60 |     { username: 'emma_pro', avatar: 'E' },
+     |                                   ^
+  61 |   ],
+  62 | };
+  63 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+[02:01:28.196] Browser ERROR   ./src/app/profil/Profil.module.css:30:1
+Parsing CSS source code failed
+  28 | }
+  29 |
+> 30 | }
+     | ^
+  31 |
+  32 | .statLabel {
+  33 |   font-size: 0.875rem;
+
+Invalid empty selector
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/Profil.module.css [Client Component Browser]
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/Profil.module.css [Client Component SSR]
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+[02:01:28.196] Browser ERROR   ./src/app/profil/page.tsx:60:35
+Parsing ecmascript source code failed
+  58 |   )
+  59 | }
+> 60 |     { username: 'emma_pro', avatar: 'E' },
+     |                                   ^
+  61 |   ],
+  62 | };
+  63 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+[02:01:28.357] Browser ERROR   uncaughtError: Error: ./src/app/profil/Profil.module.css:30:1
+Parsing CSS source code failed
+  28 | }
+  29 |
+> 30 | }
+     | ^
+  31 |
+  32 | .statLabel {
+  33 |   font-size: 0.875rem;
+
+Invalid empty selector
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/Profil.module.css [Client Component Browser]
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/Profil.module.css [Client Component SSR]
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+
+
+[02:01:28.508] Browser ERROR   ./src/app/profil/Profil.module.css:30:1
+Parsing CSS source code failed
+  28 | }
+  29 |
+> 30 | }
+     | ^
+  31 |
+  32 | .statLabel {
+  33 |   font-size: 0.875rem;
+
+Invalid empty selector
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/Profil.module.css [Client Component Browser]
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/Profil.module.css [Client Component SSR]
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+[02:01:28.508] Browser ERROR   ./src/app/profil/page.tsx:60:35
+Parsing ecmascript source code failed
+  58 |   )
+  59 | }
+> 60 |     { username: 'emma_pro', avatar: 'E' },
+     |                                   ^
+  61 |   ],
+  62 | };
+  63 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+[02:01:28.508] Browser ERROR   ./src/app/profil/Profil.module.css:30:1
+Parsing CSS source code failed
+  28 | }
+  29 |
+> 30 | }
+     | ^
+  31 |
+  32 | .statLabel {
+  33 |   font-size: 0.875rem;
+
+Invalid empty selector
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/Profil.module.css [Client Component Browser]
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/Profil.module.css [Client Component SSR]
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+[02:01:28.508] Browser ERROR   ./src/app/profil/page.tsx:60:35
+Parsing ecmascript source code failed
+  58 |   )
+  59 | }
+> 60 |     { username: 'emma_pro', avatar: 'E' },
+     |                                   ^
+  61 |   ],
+  62 | };
+  63 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+[02:01:41.139] Browser ERROR   ./src/app/profil/page.tsx:60:35
+Parsing ecmascript source code failed
+  58 |   )
+  59 | }
+> 60 |     { username: 'emma_pro', avatar: 'E' },
+     |                                   ^
+  61 |   ],
+  62 | };
+  63 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+[02:01:47.292] Server  ERROR    ⨯ ./src/app/profil/page.tsx:60:35
+Parsing ecmascript source code failed
+  58 |   )
+  59 | }
+> 60 |     { username: 'emma_pro', avatar: 'E' },
+     |                                   ^
+  61 |   ],
+  62 | };
+  63 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+
+
+[02:01:47.379] Browser ERROR   uncaughtError: Error: ./src/app/profil/page.tsx:60:35
+Parsing ecmascript source code failed
+  58 |   )
+  59 | }
+> 60 |     { username: 'emma_pro', avatar: 'E' },
+     |                                   ^
+  61 |   ],
+  62 | };
+  63 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+
+
+[02:01:47.515] Browser ERROR   ./src/app/profil/page.tsx:60:35
+Parsing ecmascript source code failed
+  58 |   )
+  59 | }
+> 60 |     { username: 'emma_pro', avatar: 'E' },
+     |                                   ^
+  61 |   ],
+  62 | };
+  63 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+[02:01:47.515] Browser ERROR   ./src/app/profil/page.tsx:60:35
+Parsing ecmascript source code failed
+  58 |   )
+  59 | }
+> 60 |     { username: 'emma_pro', avatar: 'E' },
+     |                                   ^
+  61 |   ],
+  62 | };
+  63 |
+
+Expected ';', '}' or <eof>
+
+Import traces:
+  Client Component Browser:
+    ./src/app/profil/page.tsx [Client Component Browser]
+    ./src/app/profil/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/profil/page.tsx [Client Component SSR]
+    ./src/app/profil/page.tsx [Server Component]
+[02:02:36.610] Server  LOG      ✓ Compiled in 39ms
+[02:03:47.663] Server  LOG      ✓ Compiled in 54ms
+[02:03:59.309] Server  LOG      ✓ Compiled in 63ms
+[02:05:11.603] Server  LOG      ✓ Compiled in 48ms
+[02:05:46.864] Server  LOG      ✓ Compiled in 53ms
+[02:07:19.656] Server  LOG      ✓ Compiled in 45ms
+[02:07:33.462] Server  ERROR    ⨯ ./src/app/settings/page.tsx:4:1
+Module not found: Can't resolve './Settings.module.css'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import styles from './Settings.module.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function SettingsPage() {
+  7 |   const [activeSection, setActiveSection] = useState('account');
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/settings/page.tsx [Client Component Browser]
+    ./src/app/settings/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/settings/page.tsx [Client Component SSR]
+    ./src/app/settings/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/settings/page.tsx:4:1
+Module not found: Can't resolve './Settings.module.css'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import styles from './Settings.module.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function SettingsPage() {
+  7 |   const [activeSection, setActiveSection] = useState('account');
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/settings/page.tsx [Client Component Browser]
+    ./src/app/settings/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/settings/page.tsx [Client Component SSR]
+    ./src/app/settings/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:07:33.491] Server  ERROR    ⨯ ./src/app/settings/page.tsx:4:1
+Module not found: Can't resolve './Settings.module.css'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import styles from './Settings.module.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function SettingsPage() {
+  7 |   const [activeSection, setActiveSection] = useState('account');
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/settings/page.tsx [Client Component Browser]
+    ./src/app/settings/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/settings/page.tsx [Client Component SSR]
+    ./src/app/settings/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+
+./src/app/settings/page.tsx:4:1
+Module not found: Can't resolve './Settings.module.css'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import styles from './Settings.module.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function SettingsPage() {
+  7 |   const [activeSection, setActiveSection] = useState('account');
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/settings/page.tsx [Client Component Browser]
+    ./src/app/settings/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/settings/page.tsx [Client Component SSR]
+    ./src/app/settings/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:07:33.632] Browser ERROR   ./src/app/settings/page.tsx:4:1
+Module not found: Can't resolve './Settings.module.css'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import styles from './Settings.module.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function SettingsPage() {
+  7 |   const [activeSection, setActiveSection] = useState('account');
+
+Import traces:
+  Client Component Browser:
+    ./src/app/settings/page.tsx [Client Component Browser]
+    ./src/app/settings/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/settings/page.tsx [Client Component SSR]
+    ./src/app/settings/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[02:07:33.863] Browser ERROR   uncaughtError: Error: ./src/app/settings/page.tsx:4:1
+Module not found: Can't resolve './Settings.module.css'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import styles from './Settings.module.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function SettingsPage() {
+  7 |   const [activeSection, setActiveSection] = useState('account');
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/settings/page.tsx [Client Component Browser]
+    ./src/app/settings/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/settings/page.tsx [Client Component SSR]
+    ./src/app/settings/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[02:07:34.000] Browser ERROR   ./src/app/settings/page.tsx:4:1
+Module not found: Can't resolve './Settings.module.css'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import styles from './Settings.module.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function SettingsPage() {
+  7 |   const [activeSection, setActiveSection] = useState('account');
+
+Import traces:
+  Client Component Browser:
+    ./src/app/settings/page.tsx [Client Component Browser]
+    ./src/app/settings/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/settings/page.tsx [Client Component SSR]
+    ./src/app/settings/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[02:07:34.000] Browser ERROR   ./src/app/settings/page.tsx:4:1
+Module not found: Can't resolve './Settings.module.css'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import styles from './Settings.module.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function SettingsPage() {
+  7 |   const [activeSection, setActiveSection] = useState('account');
+
+Import traces:
+  Client Component Browser:
+    ./src/app/settings/page.tsx [Client Component Browser]
+    ./src/app/settings/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/settings/page.tsx [Client Component SSR]
+    ./src/app/settings/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[02:07:41.657] Browser ERROR   ./src/app/settings/page.tsx:4:1
+Module not found: Can't resolve './Settings.module.css'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import styles from './Settings.module.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function SettingsPage() {
+  7 |   const [activeSection, setActiveSection] = useState('account');
+
+Import traces:
+  Client Component Browser:
+    ./src/app/settings/page.tsx [Client Component Browser]
+    ./src/app/settings/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/settings/page.tsx [Client Component SSR]
+    ./src/app/settings/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[02:07:41.657] Browser ERROR   ./src/app/settings/page.tsx:4:1
+Module not found: Can't resolve './Settings.module.css'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import styles from './Settings.module.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function SettingsPage() {
+  7 |   const [activeSection, setActiveSection] = useState('account');
+
+Import traces:
+  Client Component Browser:
+    ./src/app/settings/page.tsx [Client Component Browser]
+    ./src/app/settings/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/settings/page.tsx [Client Component SSR]
+    ./src/app/settings/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[02:07:42.878] Browser ERROR   ./src/app/settings/page.tsx:4:1
+Module not found: Can't resolve './Settings.module.css'
+  2 |
+  3 | import { useState } from 'react';
+> 4 | import styles from './Settings.module.css';
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 |
+  6 | export default function SettingsPage() {
+  7 |   const [activeSection, setActiveSection] = useState('account');
+
+Import traces:
+  Client Component Browser:
+    ./src/app/settings/page.tsx [Client Component Browser]
+    ./src/app/settings/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./src/app/settings/page.tsx [Client Component SSR]
+    ./src/app/settings/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+[02:07:42.985] Server  LOG      ✓ Compiled in 16ms
+[02:07:42.989] Browser ERROR   Failed to fetch RSC payload for http://localhost:3000/game. Falling back to browser navigation. {}
+[02:08:26.647] Server  LOG      ✓ Compiled in 106ms
+[02:08:54.579] Server  LOG      ✓ Compiled in 3ms
+[02:09:53.808] Server  LOG      ✓ Compiled in 7ms
+[02:10:26.769] Server  LOG      ✓ Compiled in 5ms
+[02:11:17.358] Server  LOG      ✓ Compiled in 176ms
+[02:12:03.539] Server  LOG      ✓ Compiled in 4ms
+[02:12:51.922] Server  LOG      ✓ Compiled in 5ms
+[02:13:28.405] Server  LOG      ✓ Compiled in 6ms
+[02:14:26.187] Server  LOG      ✓ Compiled in 171ms
+[02:15:01.215] Server  LOG      ✓ Compiled in 100ms
+[02:15:14.807] Server  LOG      ✓ Compiled in 6ms
+[02:15:21.689] Server  LOG      ✓ Compiled in 5ms
+[02:15:36.625] Server  LOG      ✓ Compiled in 5ms
+[02:15:49.223] Server  LOG      ✓ Compiled in 6ms
+[02:16:04.373] Server  LOG      ✓ Compiled in 5ms
+[02:16:30.490] Server  LOG      ✓ Compiled in 6ms
+[02:16:36.680] Server  LOG      ✓ Compiled in 5ms
+[02:16:42.136] Server  LOG      ✓ Compiled in 5ms
+[02:17:22.448] Server  LOG      ✓ Compiled in 4ms
+[02:18:25.256] Server  LOG      ✓ Compiled in 8ms
+[02:18:34.447] Server  LOG      ✓ Compiled in 7ms
+[02:19:42.940] Server  LOG      ✓ Compiled in 5ms
+[02:22:24.632] Server  LOG      ✓ Compiled in 10ms
+[02:22:33.396] Server  LOG      ✓ Compiled in 5ms

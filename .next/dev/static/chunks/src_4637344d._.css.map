@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/jalbiser/Desktop/ft_transcendance_vquarantedouze/src/app/Home.module.css"],"sourcesContent":[""],"names":[],"mappings":""}},
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/jalbiser/Desktop/ft_transcendance_vquarantedouze/src/components/home/StatsCard/StatsCard.module.css"],"sourcesContent":[""],"names":[],"mappings":""}},
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/jalbiser/Desktop/ft_transcendance_vquarantedouze/src/components/home/QuickActions/QuickActions.module.css"],"sourcesContent":[""],"names":[],"mappings":""}}]
+}

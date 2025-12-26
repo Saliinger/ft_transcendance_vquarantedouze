@@ -1,0 +1,27 @@
+/* [project]/src/app/profil/Profil.module.css [app-client] (css) */
+.Profil-module__7LuqTW__wrapper {
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.Profil-module__7LuqTW__grid {
+  grid-template-columns: 1fr 350px;
+  gap: 10px;
+  display: grid;
+}
+
+.Profil-module__7LuqTW__leftColumn, .Profil-module__7LuqTW__rightColumn {
+  min-width: 0;
+}
+
+@media (max-width: 1024px) {
+  .Profil-module__7LuqTW__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=src_app_profil_Profil_module_f0a57f53.css.map*/

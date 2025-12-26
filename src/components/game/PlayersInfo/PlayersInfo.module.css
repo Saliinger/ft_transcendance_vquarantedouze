@@ -1,0 +1,11 @@
+.playersInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.playersInfo > * {
+    flex: 1;
+    width: calc(50% - 5px);
+}

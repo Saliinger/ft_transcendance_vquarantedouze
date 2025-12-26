@@ -1,0 +1,50 @@
+.quickActions {
+    background-color: #21201D;
+    border-radius: 20px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.quickActions h2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.actionsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.actionCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 24px;
+    background-color: #262522;
+    border-radius: 16px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.actionCard:hover {
+    background-color: #2a2926;
+    transform: translateY(-2px);
+}
+
+.actionCard svg {
+    width: 32px;
+    height: 32px;
+    color: #739552;
+}
+
+.actionCard span {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+}

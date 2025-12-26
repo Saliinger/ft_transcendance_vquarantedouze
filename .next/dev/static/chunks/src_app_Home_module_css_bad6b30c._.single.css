@@ -1,0 +1,60 @@
+/* [project]/src/app/Home.module.css [app-client] (css) */
+.Home-module__jKgjFW__wrapper {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.Home-module__jKgjFW__header {
+  margin-bottom: 32px;
+}
+
+.Home-module__jKgjFW__header h1 {
+  color: #fff;
+  margin: 0 0 8px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.Home-module__jKgjFW__header p {
+  color: #90908e;
+  margin: 0;
+  font-size: 16px;
+}
+
+.Home-module__jKgjFW__statsGrid {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+  margin-bottom: 10px;
+  display: grid;
+}
+
+.Home-module__jKgjFW__mainGrid {
+  grid-template-columns: 1fr 400px;
+  gap: 10px;
+  display: grid;
+}
+
+.Home-module__jKgjFW__leftColumn, .Home-module__jKgjFW__rightColumn {
+  min-width: 0;
+}
+
+@media (max-width: 1024px) {
+  .Home-module__jKgjFW__mainGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .Home-module__jKgjFW__statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .Home-module__jKgjFW__statsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=src_app_Home_module_css_bad6b30c._.single.css.map*/

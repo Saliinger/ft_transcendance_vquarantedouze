@@ -1,0 +1,300 @@
+/* [project]/src/app/Home.module.css [app-client] (css) */
+.Home-module__jKgjFW__wrapper {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.Home-module__jKgjFW__header {
+  margin-bottom: 32px;
+}
+
+.Home-module__jKgjFW__header h1 {
+  color: #fff;
+  margin: 0 0 8px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.Home-module__jKgjFW__header p {
+  color: #90908e;
+  margin: 0;
+  font-size: 16px;
+}
+
+.Home-module__jKgjFW__statsGrid {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 10px;
+  margin-bottom: 10px;
+  display: grid;
+}
+
+.Home-module__jKgjFW__mainGrid {
+  grid-template-columns: 1fr 400px;
+  gap: 10px;
+  display: grid;
+}
+
+.Home-module__jKgjFW__leftColumn, .Home-module__jKgjFW__rightColumn {
+  min-width: 0;
+}
+
+@media (max-width: 1024px) {
+  .Home-module__jKgjFW__mainGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .Home-module__jKgjFW__statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .Home-module__jKgjFW__statsGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* [project]/src/components/home/StatsCard/StatsCard.module.css [app-client] (css) */
+.StatsCard-module__Wmz4ua__statsCard {
+  background-color: #21201d;
+  border-radius: 20px;
+  align-items: center;
+  gap: 10px;
+  padding: 24px;
+  transition: transform .2s, box-shadow .2s;
+  display: flex;
+}
+
+.StatsCard-module__Wmz4ua__statsCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px #0000004d;
+}
+
+.StatsCard-module__Wmz4ua__iconWrapper {
+  color: #739552;
+  background-color: #73955226;
+  border-radius: 14px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  display: flex;
+}
+
+.StatsCard-module__Wmz4ua__iconWrapper svg {
+  width: 28px;
+  height: 28px;
+}
+
+.StatsCard-module__Wmz4ua__content {
+  flex-direction: column;
+  gap: 4px;
+  display: flex;
+}
+
+.StatsCard-module__Wmz4ua__title {
+  color: #90908e;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-size: 13px;
+}
+
+.StatsCard-module__Wmz4ua__value {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.StatsCard-module__Wmz4ua__trend {
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.StatsCard-module__Wmz4ua__trend.StatsCard-module__Wmz4ua__positive {
+  color: #739552;
+}
+
+.StatsCard-module__Wmz4ua__trend.StatsCard-module__Wmz4ua__negative {
+  color: #ef4444;
+}
+
+/* [project]/src/components/home/RecentGames/RecentGames.module.css [app-client] (css) */
+.RecentGames-module__eh05LW__recentGames {
+  background-color: #21201d;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 10px;
+  padding: 24px;
+  display: flex;
+}
+
+.RecentGames-module__eh05LW__header {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.RecentGames-module__eh05LW__header h2 {
+  color: #fff;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.RecentGames-module__eh05LW__viewAll {
+  color: #739552;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity .2s;
+}
+
+.RecentGames-module__eh05LW__viewAll:hover {
+  opacity: .8;
+}
+
+.RecentGames-module__eh05LW__gamesList {
+  flex-direction: column;
+  gap: 10px;
+  display: flex;
+}
+
+.RecentGames-module__eh05LW__gameItem {
+  background-color: #262522;
+  border-radius: 12px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  transition: background-color .2s;
+  display: flex;
+}
+
+.RecentGames-module__eh05LW__gameItem:hover {
+  background-color: #2a2926;
+}
+
+.RecentGames-module__eh05LW__gameInfo {
+  flex-direction: column;
+  gap: 10px;
+  display: flex;
+}
+
+.RecentGames-module__eh05LW__opponent {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.RecentGames-module__eh05LW__opponentAvatar {
+  color: #fff;
+  background-color: #739552;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+}
+
+.RecentGames-module__eh05LW__opponentName {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.RecentGames-module__eh05LW__gameDetails {
+  gap: 10px;
+  font-size: 12px;
+  display: flex;
+}
+
+.RecentGames-module__eh05LW__moves {
+  color: #90908e;
+}
+
+.RecentGames-module__eh05LW__date {
+  color: #5a5a58;
+}
+
+.RecentGames-module__eh05LW__result {
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.RecentGames-module__eh05LW__result.RecentGames-module__eh05LW__win {
+  color: #739552;
+  background-color: #73955233;
+}
+
+.RecentGames-module__eh05LW__result.RecentGames-module__eh05LW__loss {
+  color: #ef4444;
+  background-color: #ef444433;
+}
+
+.RecentGames-module__eh05LW__result.RecentGames-module__eh05LW__draw {
+  color: #90908e;
+  background-color: #90908e33;
+}
+
+/* [project]/src/components/home/QuickActions/QuickActions.module.css [app-client] (css) */
+.QuickActions-module__F6919q__quickActions {
+  background-color: #21201d;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 10px;
+  padding: 24px;
+  display: flex;
+}
+
+.QuickActions-module__F6919q__quickActions h2 {
+  color: #fff;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.QuickActions-module__F6919q__actionsGrid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  display: grid;
+}
+
+.QuickActions-module__F6919q__actionCard {
+  background-color: #262522;
+  border-radius: 16px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 24px;
+  text-decoration: none;
+  transition: all .2s;
+  display: flex;
+}
+
+.QuickActions-module__F6919q__actionCard:hover {
+  background-color: #2a2926;
+  transform: translateY(-2px);
+}
+
+.QuickActions-module__F6919q__actionCard svg {
+  color: #739552;
+  width: 32px;
+  height: 32px;
+}
+
+.QuickActions-module__F6919q__actionCard span {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=src_7ac8b259._.css.map*/

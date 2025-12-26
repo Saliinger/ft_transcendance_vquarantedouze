@@ -1,0 +1,44 @@
+/* [project]/src/app/game/Game.module.css [app-client] (css) */
+.Game-module__uyjN4W__wrapper {
+  width: 100%;
+  height: calc(100vh - 80px);
+}
+
+.Game-module__uyjN4W__grid {
+  grid-template-columns: 1fr .4fr;
+  gap: 10px;
+  height: 100%;
+  display: grid;
+}
+
+.Game-module__uyjN4W__cold {
+  height: 100%;
+}
+
+.Game-module__uyjN4W__grdBza {
+  grid-template-rows: 1fr .6fr;
+  grid-auto-columns: 1fr;
+  gap: 10px;
+  height: 100%;
+  display: grid;
+}
+
+.Game-module__uyjN4W__row {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.Game-module__uyjN4W__grdBsh {
+  grid-template-rows: 1fr auto;
+  grid-auto-columns: 1fr;
+  gap: 10px;
+  height: 100%;
+  display: grid;
+}
+
+.Game-module__uyjN4W__col {
+  height: 100%;
+  min-height: 0;
+}
+
+/*# sourceMappingURL=src_app_game_Game_module_css_bad6b30c._.single.css.map*/

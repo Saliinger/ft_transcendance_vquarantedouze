@@ -1,0 +1,149 @@
+/* [project]/src/components/layout/Navbar/Navbar.module.css [app-client] (css) */
+.Navbar-module__ZERf_q__navbar {
+  z-index: 1000;
+  background: #21201d;
+  border-radius: 20px;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  height: calc(100vh - 20px);
+  padding: 1.5rem 0;
+  display: flex;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+}
+
+.Navbar-module__ZERf_q__logo {
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 3rem;
+  display: flex;
+}
+
+.Navbar-module__ZERf_q__nav {
+  flex-direction: column;
+  gap: 0;
+  width: 100%;
+  display: flex;
+}
+
+.Navbar-module__ZERf_q__navItem {
+  color: #fff;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  text-decoration: none;
+  transition: all .3s;
+  display: flex;
+  position: relative;
+  overflow: visible;
+}
+
+.Navbar-module__ZERf_q__navItem:hover, .Navbar-module__ZERf_q__navItem.Navbar-module__ZERf_q__active {
+  color: #667eea;
+  background: #00000037;
+}
+
+.Navbar-module__ZERf_q__iconWrapper {
+  justify-content: center;
+  align-items: center;
+  min-width: 48px;
+  min-height: 48px;
+  transition: all .3s;
+  display: flex;
+}
+
+.Navbar-module__ZERf_q__icon {
+  width: 24px;
+  height: 24px;
+}
+
+.Navbar-module__ZERf_q__label {
+  display: none;
+}
+
+.Navbar-module__ZERf_q__navItem:hover .Navbar-module__ZERf_q__tooltip {
+  opacity: 1;
+  visibility: visible;
+  left: 95px;
+}
+
+.Navbar-module__ZERf_q__tooltip {
+  color: #fff;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  z-index: 1001;
+  background: #21201f;
+  border-radius: 8px;
+  padding: .5rem .75rem;
+  font-size: .875rem;
+  transition: all .3s;
+  position: absolute;
+  left: 85px;
+  box-shadow: 0 4px 12px #0000004d;
+}
+
+.Navbar-module__ZERf_q__tooltip:before {
+  content: "";
+  border-top: 6px solid #0000;
+  border-bottom: 6px solid #0000;
+  border-right: 6px solid #21201f;
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 50%;
+  left: -6px;
+  transform: translateY(-50%);
+}
+
+.Navbar-module__ZERf_q__spacer {
+  flex: 1;
+}
+
+.Navbar-module__ZERf_q__bottomSection {
+  width: 100%;
+  margin-top: auto;
+  padding: 0 .75rem;
+}
+
+.Navbar-module__ZERf_q__profileLink {
+  color: #fff;
+  cursor: pointer;
+  border: 2px solid #667eea4d;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  text-decoration: none;
+  transition: all .3s;
+  display: flex;
+  position: relative;
+}
+
+.Navbar-module__ZERf_q__profileLink:hover {
+  color: #667eea;
+  background: #00000a66;
+  border-color: #667eea;
+}
+
+.Navbar-module__ZERf_q__avatar {
+  color: #fff;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  min-width: 32px;
+  height: 32px;
+  font-size: .875rem;
+  font-weight: bold;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_components_layout_Navbar_Navbar_module_css_bad6b30c._.single.css.map*/

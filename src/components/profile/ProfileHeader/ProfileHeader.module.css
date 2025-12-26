@@ -1,0 +1,112 @@
+.profileHeader {
+    background-color: #21201D;
+    border-radius: 20px;
+    padding: 32px;
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.avatarSection {
+    flex-shrink: 0;
+}
+
+.avatarWrapper {
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+.avatarWrapper img {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.defaultAvatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #739552;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.statusIndicator {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 3px solid #21201D;
+}
+
+.statusIndicator.online {
+    background-color: #739552;
+}
+
+.statusIndicator.offline {
+    background-color: #90908E;
+}
+
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.nameRow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.nameRow h1 {
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.editBtn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #739552;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity 0.2s ease;
+}
+
+.editBtn:hover {
+    opacity: 0.9;
+}
+
+.bio {
+    color: #90908E;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .profileHeader {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nameRow {
+        flex-direction: column;
+    }
+}

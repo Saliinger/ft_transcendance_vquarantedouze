@@ -1,0 +1,29 @@
+/* [project]/src/app/classement/Classement.module.css [app-client] (css) */
+.Classement-module__8k95-a__wrapper {
+  width: 100%;
+  padding: 20px;
+}
+
+.Classement-module__8k95-a__grid {
+  grid-template-columns: 1fr 350px;
+  gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+}
+
+.Classement-module__8k95-a__leftColumn, .Classement-module__8k95-a__rightColumn {
+  min-width: 0;
+}
+
+@media (max-width: 1024px) {
+  .Classement-module__8k95-a__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .Classement-module__8k95-a__rightColumn {
+    order: -1;
+  }
+}
+
+/*# sourceMappingURL=src_app_classement_Classement_module_71587581.css.map*/

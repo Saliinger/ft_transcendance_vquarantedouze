@@ -1,0 +1,75 @@
+/* [project]/src/components/game/PlayerCard/PlayerCard.module.css [app-client] (css) */
+.PlayerCard-module__9L54fW__playerCard {
+  background-color: #21201d;
+  border-radius: 15px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  display: flex;
+}
+
+.PlayerCard-module__9L54fW__playerInfo {
+  align-items: center;
+  gap: 12px;
+  display: flex;
+}
+
+.PlayerCard-module__9L54fW__avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.PlayerCard-module__9L54fW__avatar img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.PlayerCard-module__9L54fW__defaultAvatar {
+  color: #fff;
+  background-color: #739552;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+}
+
+.PlayerCard-module__9L54fW__details {
+  flex-direction: column;
+  gap: 2px;
+  display: flex;
+}
+
+.PlayerCard-module__9L54fW__name {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.PlayerCard-module__9L54fW__rating {
+  color: #90908e;
+  font-size: 12px;
+}
+
+.PlayerCard-module__9L54fW__timer {
+  color: #90908e;
+  background-color: #2a2926;
+  border-radius: 10px;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  font-size: 13px;
+  display: flex;
+}
+
+.PlayerCard-module__9L54fW__timer svg {
+  color: #90908e;
+}
+
+/*# sourceMappingURL=src_components_game_PlayerCard_PlayerCard_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/app/game/Game.module.css"],"sourcesContent":[".wrapper {\n    width: 100%;\n    height: calc(100vh - 80px);\n}\n\n.grid {\n    display: grid;\n    grid-template-columns: 1fr 0.4fr;\n    gap: 10px;\n    height: 100%;\n}\n\n.cold {\n    height: 100%;\n}\n\n.grdBza {\n    display: grid;\n    grid-auto-columns: 1fr;\n    grid-template-rows: 1fr 0.6fr;\n    gap: 10px;\n    height: 100%;\n}\n\n.row {\n    min-height: 0;\n    overflow: hidden;\n}\n\n.grdBsh {\n    display: grid;\n    grid-auto-columns: 1fr;\n    grid-template-rows: 1fr auto;\n    gap: 10px;\n    height: 100%;\n}\n\n.col {\n    min-height: 0;\n    height: 100%;\n}\n"],"names":[],"mappings":"AAAA;;;;;AAKA;;;;;;;AAOA;;;;AAIA;;;;;;;;AAQA;;;;;AAKA;;;;;;;;AAQA"}}]
+}

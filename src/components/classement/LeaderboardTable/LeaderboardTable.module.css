@@ -1,0 +1,138 @@
+.leaderboard {
+    background-color: #21201D;
+    border-radius: 20px;
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: fit-content;
+    margin-bottom: 10px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 0 24px;
+}
+
+.header h2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.filters {
+    display: flex;
+    gap: 8px;
+}
+
+.filterBtn {
+    background-color: #262522;
+    border: none;
+    color: #90908E;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.filterBtn:hover {
+    background-color: #2a2926;
+    color: #ffffff;
+}
+
+.filterBtn.active {
+    background-color: #739552;
+    color: #ffffff;
+}
+
+.tableContainer {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table thead th {
+    color: #90908E;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: left;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-bottom: 1px solid #2a2926;
+}
+
+.table tbody tr {
+    border-bottom: 1px solid #2a2926;
+    transition: background-color 0.2s ease;
+}
+
+.table tbody tr:hover {
+    background-color: #262522;
+}
+
+.table tbody tr.highlighted {
+    background-color: rgba(115, 149, 82, 0.15);
+}
+
+.table tbody tr.highlighted:hover {
+    background-color: rgba(115, 149, 82, 0.25);
+}
+
+.table tbody td {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 16px 24px;
+}
+
+.rankCell {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.medal {
+    font-size: 18px;
+}
+
+.playerCell {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.playerAvatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #739552;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    flex-shrink: 0;
+}
+
+.playerName {
+    font-weight: 500;
+}
+
+.rating {
+    color: #739552;
+    font-weight: 600;
+}
+
+.winRate {
+    color: #739552;
+}

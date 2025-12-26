@@ -1,0 +1,417 @@
+/* [project]/src/app/settings/Settings.module.css [app-client] (css) */
+.Settings-module__h9_rbW__wrapper {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.Settings-module__h9_rbW__title {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.Settings-module__h9_rbW__container {
+  grid-template-columns: 1fr 250px;
+  gap: 10px;
+  display: grid;
+}
+
+.Settings-module__h9_rbW__sidebar {
+  background: #21201d;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 10px;
+  height: fit-content;
+  padding: 15px;
+  display: flex;
+  position: sticky;
+  top: 20px;
+}
+
+.Settings-module__h9_rbW__sidebarItem {
+  color: #90908e;
+  cursor: pointer;
+  text-align: left;
+  background: none;
+  border: none;
+  border-radius: 15px;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px 16px;
+  font-size: .95rem;
+  transition: all .2s;
+  display: flex;
+}
+
+.Settings-module__h9_rbW__sidebarItem:hover {
+  color: #fff;
+  background: #262522;
+}
+
+.Settings-module__h9_rbW__sidebarItem.Settings-module__h9_rbW__active {
+  color: #fff;
+  background: #739552;
+}
+
+.Settings-module__h9_rbW__sidebarItem svg {
+  flex-shrink: 0;
+}
+
+.Settings-module__h9_rbW__content {
+  background: #21201d;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding: 30px;
+}
+
+.Settings-module__h9_rbW__section {
+  max-width: 700px;
+}
+
+.Settings-module__h9_rbW__sectionTitle {
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.Settings-module__h9_rbW__subsectionTitle {
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.Settings-module__h9_rbW__description {
+  color: #90908e;
+  margin-bottom: 16px;
+  line-height: 1.6;
+}
+
+.Settings-module__h9_rbW__formGroup {
+  margin-bottom: 24px;
+}
+
+.Settings-module__h9_rbW__label {
+  color: #fff;
+  margin-bottom: 8px;
+  font-weight: 500;
+  display: block;
+}
+
+.Settings-module__h9_rbW__input, .Settings-module__h9_rbW__textarea, .Settings-module__h9_rbW__select {
+  color: #fff;
+  background: #262522;
+  border: 1px solid #3a3a38;
+  border-radius: 6px;
+  width: 100%;
+  padding: 12px;
+  font-size: .95rem;
+  transition: border-color .2s;
+}
+
+.Settings-module__h9_rbW__input:focus, .Settings-module__h9_rbW__textarea:focus, .Settings-module__h9_rbW__select:focus {
+  border-color: #739552;
+  outline: none;
+}
+
+.Settings-module__h9_rbW__textarea {
+  resize: vertical;
+  font-family: inherit;
+}
+
+.Settings-module__h9_rbW__select {
+  cursor: pointer;
+}
+
+.Settings-module__h9_rbW__hint {
+  color: #90908e;
+  margin-top: 6px;
+  font-size: .85rem;
+}
+
+.Settings-module__h9_rbW__avatarUpload {
+  align-items: center;
+  gap: 20px;
+  display: flex;
+}
+
+.Settings-module__h9_rbW__avatarPreview {
+  color: #fff;
+  background: linear-gradient(135deg, #739552 0%, #5a7841 100%);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+}
+
+.Settings-module__h9_rbW__avatarActions {
+  flex-direction: column;
+  gap: 8px;
+  display: flex;
+}
+
+.Settings-module__h9_rbW__btnPrimary, .Settings-module__h9_rbW__btnSecondary, .Settings-module__h9_rbW__btnDanger, .Settings-module__h9_rbW__btnWarning {
+  cursor: pointer;
+  border: none;
+  border-radius: 6px;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  font-size: .95rem;
+  font-weight: 500;
+  transition: all .2s;
+  display: inline-flex;
+}
+
+.Settings-module__h9_rbW__btnPrimary {
+  color: #fff;
+  background: #739552;
+}
+
+.Settings-module__h9_rbW__btnPrimary:hover {
+  background: #5a7841;
+}
+
+.Settings-module__h9_rbW__btnSecondary {
+  color: #fff;
+  background: #3a3a38;
+}
+
+.Settings-module__h9_rbW__btnSecondary:hover {
+  background: #4a4a48;
+}
+
+.Settings-module__h9_rbW__btnDanger {
+  color: #fff;
+  background: #c53030;
+}
+
+.Settings-module__h9_rbW__btnDanger:hover {
+  background: #9b2c2c;
+}
+
+.Settings-module__h9_rbW__btnWarning {
+  color: #fff;
+  background: #d97706;
+}
+
+.Settings-module__h9_rbW__btnWarning:hover {
+  background: #b45309;
+}
+
+.Settings-module__h9_rbW__btnDangerSmall {
+  color: #c53030;
+  cursor: pointer;
+  background: none;
+  border: 1px solid #c53030;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: .85rem;
+  transition: all .2s;
+}
+
+.Settings-module__h9_rbW__btnDangerSmall:hover {
+  color: #fff;
+  background: #c53030;
+}
+
+.Settings-module__h9_rbW__divider {
+  background: #3a3a38;
+  height: 1px;
+  margin: 30px 0;
+}
+
+.Settings-module__h9_rbW__settingItem {
+  border-bottom: 1px solid #3a3a38;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  display: flex;
+}
+
+.Settings-module__h9_rbW__settingItem:last-child {
+  border-bottom: none;
+}
+
+.Settings-module__h9_rbW__settingLabel {
+  color: #fff;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.Settings-module__h9_rbW__settingDescription {
+  color: #90908e;
+  font-size: .85rem;
+}
+
+.Settings-module__h9_rbW__switch {
+  width: 50px;
+  height: 26px;
+  display: inline-block;
+  position: relative;
+}
+
+.Settings-module__h9_rbW__switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.Settings-module__h9_rbW__slider {
+  cursor: pointer;
+  background-color: #3a3a38;
+  border-radius: 26px;
+  transition: all .3s;
+  position: absolute;
+  inset: 0;
+}
+
+.Settings-module__h9_rbW__slider:before {
+  content: "";
+  background-color: #fff;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  transition: all .3s;
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+}
+
+.Settings-module__h9_rbW__switch input:checked + .Settings-module__h9_rbW__slider {
+  background-color: #739552;
+}
+
+.Settings-module__h9_rbW__switch input:checked + .Settings-module__h9_rbW__slider:before {
+  transform: translateX(24px);
+}
+
+.Settings-module__h9_rbW__sessionsList {
+  margin: 16px 0;
+}
+
+.Settings-module__h9_rbW__sessionItem {
+  background: #262522;
+  border-radius: 6px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 16px;
+  display: flex;
+}
+
+.Settings-module__h9_rbW__sessionDevice {
+  color: #fff;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.Settings-module__h9_rbW__sessionInfo {
+  color: #90908e;
+  font-size: .85rem;
+}
+
+.Settings-module__h9_rbW__currentSession {
+  color: #739552;
+  font-size: .85rem;
+  font-weight: 500;
+}
+
+.Settings-module__h9_rbW__dataSection {
+  margin-bottom: 30px;
+}
+
+.Settings-module__h9_rbW__confirmBox {
+  background: #262522;
+  border: 1px solid #c53030;
+  border-radius: 6px;
+  margin-top: 16px;
+  padding: 20px;
+}
+
+.Settings-module__h9_rbW__confirmTitle {
+  color: #fff;
+  margin-bottom: 12px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.Settings-module__h9_rbW__confirmText {
+  color: #90908e;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.Settings-module__h9_rbW__confirmList {
+  color: #90908e;
+  margin: 12px 0 12px 20px;
+  line-height: 1.8;
+}
+
+.Settings-module__h9_rbW__confirmActions {
+  gap: 12px;
+  margin-top: 16px;
+  display: flex;
+}
+
+.Settings-module__h9_rbW__rgpdList {
+  color: #90908e;
+  margin: 12px 0 16px;
+  padding: 0;
+  line-height: 2;
+  list-style: none;
+}
+
+.Settings-module__h9_rbW__rgpdList li {
+  padding-left: 0;
+}
+
+.Settings-module__h9_rbW__link {
+  color: #739552;
+  text-decoration: none;
+}
+
+.Settings-module__h9_rbW__link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .Settings-module__h9_rbW__container {
+    grid-template-columns: 1fr;
+  }
+
+  .Settings-module__h9_rbW__sidebar {
+    gap: 8px;
+    display: flex;
+    position: static;
+    overflow-x: auto;
+  }
+
+  .Settings-module__h9_rbW__sidebarItem {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .Settings-module__h9_rbW__content {
+    padding: 20px;
+  }
+
+  .Settings-module__h9_rbW__confirmActions {
+    flex-direction: column;
+  }
+
+  .Settings-module__h9_rbW__confirmActions button {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=src_app_settings_Settings_module_a95e5661.css.map*/

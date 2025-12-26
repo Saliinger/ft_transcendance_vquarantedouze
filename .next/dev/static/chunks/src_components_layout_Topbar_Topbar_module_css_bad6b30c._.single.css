@@ -1,0 +1,193 @@
+/* [project]/src/components/layout/Topbar/Topbar.module.css [app-client] (css) */
+.Topbar-module__IsbFYa__topBar {
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0;
+  display: flex;
+}
+
+.Topbar-module__IsbFYa__profil {
+  cursor: pointer;
+  border-radius: 8px;
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+}
+
+.Topbar-module__IsbFYa__tool {
+  cursor: pointer;
+  background-color: #262522;
+  border-radius: 100%;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  transition: background-color .2s;
+  display: flex;
+  position: relative;
+}
+
+.Topbar-module__IsbFYa__tool:hover {
+  background-color: #21201f;
+}
+
+.Topbar-module__IsbFYa__search {
+  color: #fff;
+  background-color: #262522;
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  width: 250px;
+  height: 50px;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.Topbar-module__IsbFYa__search::placeholder {
+  color: #bdbdbd;
+}
+
+.Topbar-module__IsbFYa__packInput {
+  position: relative;
+}
+
+.Topbar-module__IsbFYa__ico {
+  color: #bdbdbd;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+.Topbar-module__IsbFYa__profilInfo {
+  cursor: pointer;
+  background-color: #262522;
+  border-radius: 15px;
+  align-items: center;
+  height: 50px;
+  transition: all .25s;
+  display: flex;
+  position: relative;
+}
+
+.Topbar-module__IsbFYa__profilInfo.Topbar-module__IsbFYa__open {
+  background-color: #21201f;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.Topbar-module__IsbFYa__profilInfo:hover {
+  background-color: #21201f;
+}
+
+.Topbar-module__IsbFYa__name {
+  padding: 0 15px 0 20px;
+}
+
+.Topbar-module__IsbFYa__r {
+  align-items: center;
+  gap: 15px;
+  display: flex;
+}
+
+.Topbar-module__IsbFYa__dropdown {
+  z-index: 1000;
+  transform-origin: top;
+  background: #262522;
+  border-radius: 0 0 15px 15px;
+  animation: .25s ease-out Topbar-module__IsbFYa__slideDown;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  box-shadow: 0 4px 12px #0000004d;
+}
+
+.Topbar-module__IsbFYa__notificationDropdown {
+  z-index: 1000;
+  transform-origin: top;
+  background: #262522;
+  border-radius: 15px;
+  min-width: 300px;
+  animation: .25s ease-out Topbar-module__IsbFYa__slideDown;
+  position: absolute;
+  top: calc(100% + 10px);
+  right: 0;
+  overflow: hidden;
+  box-shadow: 0 4px 12px #0000004d;
+}
+
+@keyframes Topbar-module__IsbFYa__slideDown {
+  from {
+    opacity: 0;
+    transform: scaleY(.8);
+  }
+
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+
+.Topbar-module__IsbFYa__dropdownHeader {
+  color: #fff;
+  border-bottom: 1px solid #21201f;
+  padding: 12px 16px;
+  font-weight: 600;
+}
+
+.Topbar-module__IsbFYa__notificationItem {
+  cursor: pointer;
+  border-bottom: 1px solid #21201f;
+  padding: 12px 16px;
+  transition: background-color .2s;
+}
+
+.Topbar-module__IsbFYa__notificationItem:hover {
+  background-color: #21201f;
+}
+
+.Topbar-module__IsbFYa__notificationItem:last-child {
+  border-bottom: none;
+}
+
+.Topbar-module__IsbFYa__notifMessage {
+  color: #fff;
+  margin-bottom: 4px;
+  font-size: .875rem;
+}
+
+.Topbar-module__IsbFYa__notifTime {
+  color: #bdbdbd;
+  font-size: .75rem;
+}
+
+.Topbar-module__IsbFYa__menuItem {
+  color: #fff;
+  cursor: pointer;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  transition: background-color .2s;
+  display: flex;
+}
+
+.Topbar-module__IsbFYa__menuItem:hover {
+  background-color: #21201f;
+}
+
+.Topbar-module__IsbFYa__menuItem svg {
+  flex-shrink: 0;
+}
+
+.Topbar-module__IsbFYa__menuItem.Topbar-module__IsbFYa__logout {
+  color: #ef4444;
+  border-top: 1px solid #21201f;
+}
+
+.Topbar-module__IsbFYa__menuItem.Topbar-module__IsbFYa__logout:hover {
+  background-color: #ef44441a;
+}
+
+/*# sourceMappingURL=src_components_layout_Topbar_Topbar_module_css_bad6b30c._.single.css.map*/

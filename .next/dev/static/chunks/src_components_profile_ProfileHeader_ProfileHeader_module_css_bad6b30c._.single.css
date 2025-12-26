@@ -1,0 +1,115 @@
+/* [project]/src/components/profile/ProfileHeader/ProfileHeader.module.css [app-client] (css) */
+.ProfileHeader-module__jJzh7G__profileHeader {
+  background-color: #21201d;
+  border-radius: 20px;
+  align-items: center;
+  gap: 24px;
+  padding: 32px;
+  display: flex;
+}
+
+.ProfileHeader-module__jJzh7G__avatarSection {
+  flex-shrink: 0;
+}
+
+.ProfileHeader-module__jJzh7G__avatarWrapper {
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.ProfileHeader-module__jJzh7G__avatarWrapper img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.ProfileHeader-module__jJzh7G__defaultAvatar {
+  color: #fff;
+  background-color: #739552;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  font-size: 48px;
+  font-weight: 600;
+  display: flex;
+}
+
+.ProfileHeader-module__jJzh7G__statusIndicator {
+  border: 3px solid #21201d;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+.ProfileHeader-module__jJzh7G__statusIndicator.ProfileHeader-module__jJzh7G__online {
+  background-color: #739552;
+}
+
+.ProfileHeader-module__jJzh7G__statusIndicator.ProfileHeader-module__jJzh7G__offline {
+  background-color: #90908e;
+}
+
+.ProfileHeader-module__jJzh7G__info {
+  flex-direction: column;
+  flex: 1;
+  gap: 12px;
+  display: flex;
+}
+
+.ProfileHeader-module__jJzh7G__nameRow {
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  display: flex;
+}
+
+.ProfileHeader-module__jJzh7G__nameRow h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.ProfileHeader-module__jJzh7G__editBtn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #739552;
+  border: none;
+  border-radius: 10px;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: opacity .2s;
+  display: flex;
+}
+
+.ProfileHeader-module__jJzh7G__editBtn:hover {
+  opacity: .9;
+}
+
+.ProfileHeader-module__jJzh7G__bio {
+  color: #90908e;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .ProfileHeader-module__jJzh7G__profileHeader {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .ProfileHeader-module__jJzh7G__nameRow {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=src_components_profile_ProfileHeader_ProfileHeader_module_css_bad6b30c._.single.css.map*/

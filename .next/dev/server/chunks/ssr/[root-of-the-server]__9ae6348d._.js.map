@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///Users/jalbiser/Desktop/ft_transcendance_vquarantedouze/src/app/Test/page.tsx"],"sourcesContent":["export default function Test()\n{\n    return (\n        <>home</>\n    );\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IAEpB,qBACI;kBAAE;;AAEV"}}]
+}

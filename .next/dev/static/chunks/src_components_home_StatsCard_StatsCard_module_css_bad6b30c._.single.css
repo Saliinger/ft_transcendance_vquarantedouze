@@ -1,0 +1,67 @@
+/* [project]/src/components/home/StatsCard/StatsCard.module.css [app-client] (css) */
+.StatsCard-module__Wmz4ua__statsCard {
+  background-color: #21201d;
+  border-radius: 20px;
+  align-items: center;
+  gap: 10px;
+  padding: 24px;
+  transition: transform .2s, box-shadow .2s;
+  display: flex;
+}
+
+.StatsCard-module__Wmz4ua__statsCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px #0000004d;
+}
+
+.StatsCard-module__Wmz4ua__iconWrapper {
+  color: #739552;
+  background-color: #73955226;
+  border-radius: 14px;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 56px;
+  height: 56px;
+  display: flex;
+}
+
+.StatsCard-module__Wmz4ua__iconWrapper svg {
+  width: 28px;
+  height: 28px;
+}
+
+.StatsCard-module__Wmz4ua__content {
+  flex-direction: column;
+  gap: 4px;
+  display: flex;
+}
+
+.StatsCard-module__Wmz4ua__title {
+  color: #90908e;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-size: 13px;
+}
+
+.StatsCard-module__Wmz4ua__value {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.StatsCard-module__Wmz4ua__trend {
+  margin-top: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.StatsCard-module__Wmz4ua__trend.StatsCard-module__Wmz4ua__positive {
+  color: #739552;
+}
+
+.StatsCard-module__Wmz4ua__trend.StatsCard-module__Wmz4ua__negative {
+  color: #ef4444;
+}
+
+/*# sourceMappingURL=src_components_home_StatsCard_StatsCard_module_css_bad6b30c._.single.css.map*/

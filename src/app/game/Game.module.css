@@ -1,0 +1,41 @@
+.wrapper {
+    width: 100%;
+    height: calc(100vh - 80px);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 0.4fr;
+    gap: 10px;
+    height: 100%;
+}
+
+.cold {
+    height: 100%;
+}
+
+.grdBza {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-rows: 1fr 0.6fr;
+    gap: 10px;
+    height: 100%;
+}
+
+.row {
+    min-height: 0;
+    overflow: hidden;
+}
+
+.grdBsh {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    gap: 10px;
+    height: 100%;
+}
+
+.col {
+    min-height: 0;
+    height: 100%;
+}

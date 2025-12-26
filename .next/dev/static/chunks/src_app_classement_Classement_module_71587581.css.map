@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/jalbiser/Desktop/ft_transcendance_vquarantedouze/src/app/classement/Classement.module.css"],"sourcesContent":[".wrapper {\n    width: 100%;\n    padding: 20px;\n}\n\n.grid {\n    display: grid;\n    grid-template-columns: 1fr 350px;\n    gap: 20px;\n    max-width: 1400px;\n    margin: 0 auto;\n}\n\n.leftColumn {\n    min-width: 0;\n}\n\n.rightColumn {\n    min-width: 0;\n}\n\n@media (max-width: 1024px) {\n    .grid {\n        grid-template-columns: 1fr;\n    }\n    \n    .rightColumn {\n        order: -1;\n    }\n}\n"],"names":[],"mappings":"AAAA;;;;;AAKA;;;;;;;;AAQA;;;;AAQA;EACI;;;;EAIA"}}]
+}

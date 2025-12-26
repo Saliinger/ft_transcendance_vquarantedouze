@@ -1,0 +1,72 @@
+.playerCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #21201D;
+    padding: 12px 20px;
+    border-radius: 15px;
+}
+
+.playerInfo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.defaultAvatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #739552;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.name {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.rating {
+    color: #90908E;
+    font-size: 12px;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #2a2926;
+    padding: 6px 12px;
+    border-radius: 10px;
+    color: #90908E;
+    font-size: 13px;
+}
+
+.timer svg {
+    color: #90908E;
+}

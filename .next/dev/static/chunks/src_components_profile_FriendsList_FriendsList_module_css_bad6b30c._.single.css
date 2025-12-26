@@ -1,0 +1,61 @@
+/* [project]/src/components/profile/FriendsList/FriendsList.module.css [app-client] (css) */
+.FriendsList-module__3JGjWW__friendsList {
+  background-color: #21201d;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 20px;
+  padding: 24px;
+  display: flex;
+}
+
+.FriendsList-module__3JGjWW__friendsList h2 {
+  color: #fff;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.FriendsList-module__3JGjWW__friendsGrid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  display: grid;
+}
+
+.FriendsList-module__3JGjWW__friendCard {
+  background-color: #262522;
+  border-radius: 12px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 16px;
+  text-decoration: none;
+  transition: all .2s;
+  display: flex;
+}
+
+.FriendsList-module__3JGjWW__friendCard:hover {
+  background-color: #2a2926;
+  transform: translateY(-2px);
+}
+
+.FriendsList-module__3JGjWW__friendAvatar {
+  color: #fff;
+  background-color: #739552;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+}
+
+.FriendsList-module__3JGjWW__friendName {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=src_components_profile_FriendsList_FriendsList_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///Users/jalbiser/Desktop/ft_transcendance_vquarantedouze/src/app/classement/page.tsx"],"sourcesContent":["import styles from './Classement.module.css';\n\nexport default function Classement()\n{\n    return (<>Classement</>);\n}"],"names":[],"mappings":";;;;;;AAEe,SAAS;IAEpB,qBAAQ;kBAAE;;AACd"}}]
+}

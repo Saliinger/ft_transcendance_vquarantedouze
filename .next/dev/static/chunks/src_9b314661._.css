@@ -1,0 +1,353 @@
+/* [project]/src/app/profil/Profil.module.css [app-client] (css) */
+.Profil-module__7LuqTW__wrapper {
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.Profil-module__7LuqTW__grid {
+  grid-template-columns: 1fr 350px;
+  gap: 10px;
+  display: grid;
+}
+
+.Profil-module__7LuqTW__leftColumn, .Profil-module__7LuqTW__rightColumn {
+  min-width: 0;
+}
+
+@media (max-width: 1024px) {
+  .Profil-module__7LuqTW__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* [project]/src/components/profile/ProfileHeader/ProfileHeader.module.css [app-client] (css) */
+.ProfileHeader-module__jJzh7G__profileHeader {
+  background-color: #21201d;
+  border-radius: 20px;
+  align-items: center;
+  gap: 24px;
+  padding: 32px;
+  display: flex;
+}
+
+.ProfileHeader-module__jJzh7G__avatarSection {
+  flex-shrink: 0;
+}
+
+.ProfileHeader-module__jJzh7G__avatarWrapper {
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+.ProfileHeader-module__jJzh7G__avatarWrapper img {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.ProfileHeader-module__jJzh7G__defaultAvatar {
+  color: #fff;
+  background-color: #739552;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+  font-size: 48px;
+  font-weight: 600;
+  display: flex;
+}
+
+.ProfileHeader-module__jJzh7G__statusIndicator {
+  border: 3px solid #21201d;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+
+.ProfileHeader-module__jJzh7G__statusIndicator.ProfileHeader-module__jJzh7G__online {
+  background-color: #739552;
+}
+
+.ProfileHeader-module__jJzh7G__statusIndicator.ProfileHeader-module__jJzh7G__offline {
+  background-color: #90908e;
+}
+
+.ProfileHeader-module__jJzh7G__info {
+  flex-direction: column;
+  flex: 1;
+  gap: 12px;
+  display: flex;
+}
+
+.ProfileHeader-module__jJzh7G__nameRow {
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  display: flex;
+}
+
+.ProfileHeader-module__jJzh7G__nameRow h1 {
+  color: #fff;
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.ProfileHeader-module__jJzh7G__editBtn {
+  color: #fff;
+  cursor: pointer;
+  background-color: #739552;
+  border: none;
+  border-radius: 10px;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: opacity .2s;
+  display: flex;
+}
+
+.ProfileHeader-module__jJzh7G__editBtn:hover {
+  opacity: .9;
+}
+
+.ProfileHeader-module__jJzh7G__bio {
+  color: #90908e;
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .ProfileHeader-module__jJzh7G__profileHeader {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .ProfileHeader-module__jJzh7G__nameRow {
+    flex-direction: column;
+  }
+}
+
+/* [project]/src/components/profile/ProfileStats/ProfileStats.module.css [app-client] (css) */
+.ProfileStats-module__UVT-9W__profileStats {
+  background-color: #21201d;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 20px;
+  padding: 24px;
+  display: flex;
+}
+
+.ProfileStats-module__UVT-9W__profileStats h2 {
+  color: #fff;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.ProfileStats-module__UVT-9W__statsGrid {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  display: grid;
+}
+
+.ProfileStats-module__UVT-9W__statCard {
+  background-color: #262522;
+  border-radius: 12px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 20px;
+  display: flex;
+}
+
+.ProfileStats-module__UVT-9W__statValue {
+  color: #739552;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.ProfileStats-module__UVT-9W__statLabel {
+  color: #90908e;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .ProfileStats-module__UVT-9W__statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* [project]/src/components/profile/MatchHistory/MatchHistory.module.css [app-client] (css) */
+.MatchHistory-module__DX-ZTa__matchHistory {
+  background-color: #21201d;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 20px;
+  padding: 24px;
+  display: flex;
+}
+
+.MatchHistory-module__DX-ZTa__matchHistory h2 {
+  color: #fff;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.MatchHistory-module__DX-ZTa__matchList {
+  flex-direction: column;
+  gap: 10px;
+  display: flex;
+}
+
+.MatchHistory-module__DX-ZTa__matchItem {
+  background-color: #262522;
+  border-radius: 12px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  transition: background-color .2s;
+  display: flex;
+}
+
+.MatchHistory-module__DX-ZTa__matchItem:hover {
+  background-color: #2a2926;
+}
+
+.MatchHistory-module__DX-ZTa__matchInfo {
+  flex-direction: column;
+  gap: 8px;
+  display: flex;
+}
+
+.MatchHistory-module__DX-ZTa__opponent {
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.MatchHistory-module__DX-ZTa__opponentAvatar {
+  color: #fff;
+  background-color: #739552;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+}
+
+.MatchHistory-module__DX-ZTa__opponentName {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.MatchHistory-module__DX-ZTa__matchDetails {
+  gap: 10px;
+  font-size: 12px;
+  display: flex;
+}
+
+.MatchHistory-module__DX-ZTa__score {
+  color: #90908e;
+}
+
+.MatchHistory-module__DX-ZTa__date {
+  color: #5a5a58;
+}
+
+.MatchHistory-module__DX-ZTa__result {
+  border-radius: 8px;
+  padding: 6px 14px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.MatchHistory-module__DX-ZTa__result.MatchHistory-module__DX-ZTa__win {
+  color: #739552;
+  background-color: #73955233;
+}
+
+.MatchHistory-module__DX-ZTa__result.MatchHistory-module__DX-ZTa__loss {
+  color: #ef4444;
+  background-color: #ef444433;
+}
+
+/* [project]/src/components/profile/FriendsList/FriendsList.module.css [app-client] (css) */
+.FriendsList-module__3JGjWW__friendsList {
+  background-color: #21201d;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 20px;
+  padding: 24px;
+  display: flex;
+}
+
+.FriendsList-module__3JGjWW__friendsList h2 {
+  color: #fff;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.FriendsList-module__3JGjWW__friendsGrid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  display: grid;
+}
+
+.FriendsList-module__3JGjWW__friendCard {
+  background-color: #262522;
+  border-radius: 12px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 16px;
+  text-decoration: none;
+  transition: all .2s;
+  display: flex;
+}
+
+.FriendsList-module__3JGjWW__friendCard:hover {
+  background-color: #2a2926;
+  transform: translateY(-2px);
+}
+
+.FriendsList-module__3JGjWW__friendAvatar {
+  color: #fff;
+  background-color: #739552;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+}
+
+.FriendsList-module__3JGjWW__friendName {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/*# sourceMappingURL=src_9b314661._.css.map*/

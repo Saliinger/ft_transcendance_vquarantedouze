@@ -1,0 +1,141 @@
+/* [project]/src/components/classement/LeaderboardTable/LeaderboardTable.module.css [app-client] (css) */
+.LeaderboardTable-module__09KYYq__leaderboard {
+  background-color: #21201d;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 20px;
+  height: fit-content;
+  margin-bottom: 10px;
+  padding: 24px 0;
+  display: flex;
+}
+
+.LeaderboardTable-module__09KYYq__header {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  padding: 0 24px;
+  display: flex;
+}
+
+.LeaderboardTable-module__09KYYq__header h2 {
+  color: #fff;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.LeaderboardTable-module__09KYYq__filters {
+  gap: 8px;
+  display: flex;
+}
+
+.LeaderboardTable-module__09KYYq__filterBtn {
+  color: #90908e;
+  cursor: pointer;
+  background-color: #262522;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 16px;
+  font-size: 13px;
+  transition: all .2s;
+}
+
+.LeaderboardTable-module__09KYYq__filterBtn:hover {
+  color: #fff;
+  background-color: #2a2926;
+}
+
+.LeaderboardTable-module__09KYYq__filterBtn.LeaderboardTable-module__09KYYq__active {
+  color: #fff;
+  background-color: #739552;
+}
+
+.LeaderboardTable-module__09KYYq__tableContainer {
+  overflow-x: auto;
+}
+
+.LeaderboardTable-module__09KYYq__table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.LeaderboardTable-module__09KYYq__table thead th {
+  color: #90908e;
+  text-align: left;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  border-bottom: 1px solid #2a2926;
+  padding: 12px 24px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.LeaderboardTable-module__09KYYq__table tbody tr {
+  border-bottom: 1px solid #2a2926;
+  transition: background-color .2s;
+}
+
+.LeaderboardTable-module__09KYYq__table tbody tr:hover {
+  background-color: #262522;
+}
+
+.LeaderboardTable-module__09KYYq__table tbody tr.LeaderboardTable-module__09KYYq__highlighted {
+  background-color: #73955226;
+}
+
+.LeaderboardTable-module__09KYYq__table tbody tr.LeaderboardTable-module__09KYYq__highlighted:hover {
+  background-color: #73955240;
+}
+
+.LeaderboardTable-module__09KYYq__table tbody td {
+  color: #fff;
+  padding: 16px 24px;
+  font-size: 14px;
+}
+
+.LeaderboardTable-module__09KYYq__rankCell {
+  align-items: center;
+  gap: 8px;
+  display: flex;
+}
+
+.LeaderboardTable-module__09KYYq__medal {
+  font-size: 18px;
+}
+
+.LeaderboardTable-module__09KYYq__playerCell {
+  align-items: center;
+  gap: 12px;
+  display: flex;
+}
+
+.LeaderboardTable-module__09KYYq__playerAvatar {
+  color: #fff;
+  background-color: #739552;
+  border-radius: 50%;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+}
+
+.LeaderboardTable-module__09KYYq__playerName {
+  font-weight: 500;
+}
+
+.LeaderboardTable-module__09KYYq__rating {
+  color: #739552;
+  font-weight: 600;
+}
+
+.LeaderboardTable-module__09KYYq__winRate {
+  color: #739552;
+}
+
+/*# sourceMappingURL=src_components_classement_LeaderboardTable_LeaderboardTable_module_css_bad6b30c._.single.css.map*/

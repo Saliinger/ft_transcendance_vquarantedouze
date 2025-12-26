@@ -1,0 +1,44 @@
+.game {
+    height: 100%;
+    width: 100%;
+    background: #21201D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.chessboard {
+    aspect-ratio: 1;
+    width: 100%;
+    max-width: min(100%, calc(100vh - 300px));
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    border: 3px solid #739552;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.square {
+    aspect-ratio: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.square:hover {
+    opacity: 0.8;
+}
+
+.light {
+    background: #e8e8e8;
+}
+
+.dark {
+    background: #739552;
+}

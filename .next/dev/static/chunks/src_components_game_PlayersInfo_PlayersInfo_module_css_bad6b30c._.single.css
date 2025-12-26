@@ -1,0 +1,14 @@
+/* [project]/src/components/game/PlayersInfo/PlayersInfo.module.css [app-client] (css) */
+.PlayersInfo-module__ts82QW__playersInfo {
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+}
+
+.PlayersInfo-module__ts82QW__playersInfo > * {
+  flex: 1;
+  width: calc(50% - 5px);
+}
+
+/*# sourceMappingURL=src_components_game_PlayersInfo_PlayersInfo_module_css_bad6b30c._.single.css.map*/

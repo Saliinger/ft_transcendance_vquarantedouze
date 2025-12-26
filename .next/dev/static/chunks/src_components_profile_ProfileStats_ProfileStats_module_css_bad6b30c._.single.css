@@ -1,0 +1,54 @@
+/* [project]/src/components/profile/ProfileStats/ProfileStats.module.css [app-client] (css) */
+.ProfileStats-module__UVT-9W__profileStats {
+  background-color: #21201d;
+  border-radius: 20px;
+  flex-direction: column;
+  gap: 20px;
+  padding: 24px;
+  display: flex;
+}
+
+.ProfileStats-module__UVT-9W__profileStats h2 {
+  color: #fff;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.ProfileStats-module__UVT-9W__statsGrid {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  display: grid;
+}
+
+.ProfileStats-module__UVT-9W__statCard {
+  background-color: #262522;
+  border-radius: 12px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 20px;
+  display: flex;
+}
+
+.ProfileStats-module__UVT-9W__statValue {
+  color: #739552;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.ProfileStats-module__UVT-9W__statLabel {
+  color: #90908e;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .ProfileStats-module__UVT-9W__statsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/*# sourceMappingURL=src_components_profile_ProfileStats_ProfileStats_module_css_bad6b30c._.single.css.map*/
